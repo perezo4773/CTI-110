@@ -24,16 +24,17 @@ print()
 print()
 print("------------Travel Expenses------------")
 
-print(f"{'Location:<:40', Destination")
-print("Initial Budget:",     Budget)
-print("Fuel:",               Fuel)
-print("Accommodation:",      Accommodation)
-print("Food:",Food)
-print("----------------------------------------")
+print(f"{'Location:':<20} {Destination}")
+print(f"{'Initial Budget:':<20} ${Budget:.2f}")
+print(f"{'Fuel:':<20} ${Fuel:.2f}")
+print(f"{'Accommodation:':<20} ${Accommodation:.2f}")
+print(f"{'Food:':<20} ${Food:.2f}")
+print("---------------------------------------")
+
 print()
 print()
 #Display Remaining balance
-print("Remaining Balance: ",Budget - Fuel - Accommodation - Food)
+print(f"{'Remaining Balance:'} ${Budget - Fuel - Accommodation - Food:.2f}")
 
 
 
